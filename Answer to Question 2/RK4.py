@@ -94,7 +94,8 @@ def main():
     plt.scatter(xarray, y4array, label='P_scatter', s=1, c='#DC143C', alpha=0.6)
     plt.legend()
     plt.show()
-    
+    #open source code from:https://blog.csdn.net/weixin_46039719/article/details/121948176
+
     #2.3
     y2array.remove(y2array[0])
     v=getrateofchange(y4array)
